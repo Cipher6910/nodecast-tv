@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/sunsetva/public_html/node/
+    - export DEPLOYPATH=/home//public_html/node/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
